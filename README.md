@@ -1,2 +1,2 @@
-# Progetti universitari
-Progetti legati al corso in informatica svolto presso UNICT 
+# Progetto-Watchnet
+Progetto universitario legato alla materia di Basi di Dati

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <title>Guida utente Risolutore Mappe di Karnaugh, versione 1.0</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        .header {
+            font-family: 'Ubuntu', sans-serif;
+            text-align: center;
+        }
+
+        .sectionHeader {
+            font-family: 'Ubuntu', sans-serif;
+            margin-left: 30px;
+        }
+
+        p {
+            font-family: 'Ubuntu', sans-serif;
+            margin: 0px 30px;
+        }
+
+        img {
+            width: 1024px;
+            height: 540px;
+            margin-left: 30px;
+        }
+
+        li {
+            font-family: 'Ubuntu', sans-serif;
+            margin-left: 30px;
+        }
+
+        a {
+            font-family: 'Ubuntu', sans-serif;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../index.html">◄ Home</a><br>
+    <h1 class="header">Risolutore Mappe di Karnaugh<br>Guida dell'utente</h1>
+    <h3 class="sectionHeader">Introduzione</h3>
+    <p><em>Risolutore Mappe di Karnaugh</em> è una web app che prende in input la tabella di verità di una funzione,
+        la traspone sulla rispettiva mappa di Karnaugh e trova le forme minime SOP e POS secondo il metodo di
+        risoluzione
+        visuale proposto da Maurice Karnaugh, fisico e matematico americano.</p>
+    <p>Il programma si presenta come una web app, di conseguenza eseguibile sulla maggior parte dei browser in
+        circolazione.</p>
+    <p>Per ulteriori informazioni consultare il file <a href="Installazione.html" target="_blank">Note di
+            installazione</a>.</p>
+
+    <h3 class="sectionHeader">Interfaccia e utilizzo</h3>
+    <p>L'interfaccia del software si compone di una sola schermata principale, dal quale è possibile effettuare tutte
+        le azioni
+        del caso.</p>
+    <p>Essa è suddivisa in:</p>
+    <ul>
+        <li>Tabella di verità, al quale è possibile, per ogni riga corrispondende all'input delle variabili, assegnare
+            un valore compreso
+            tra 0, 1 e X, che verrà riportato in maniera sincronizzata sulla mappa presente nella schermata.</li>
+        <li>Mappa di Karnaugh, dove, per ogni cella, è possibile modificare i valori interni tra 0, 1 e X, in maniera
+            sincrona con la tabella di verità.
+            In essa verranno visualizzati i gruppi formatisi dal calcolo della soluzione.</li>
+        <li>Menù di scelta, dove è possibile scegliere quale tipologia di mappa visualizzare (2, 3 o 4 variabili),
+            scegliere tra forma SOP e POS,
+            riempire di 0, 1 o X tutta la mappa, elaborare la soluzione secondo i criteri scelti.</li>
+        <li>In basso nella pagina apparirà la soluzione, identificata dai gruppi colorati che corrisponderanno ai
+            gruppi presenti nella mappa alla fine
+            dell'elaborazione.</li>
+    </ul>
+    <h3 class="sectionHeader">Funzionamento del programma</h3>
+    <p>E' possibile selezionare a piacimento i valori tra 0, 1 e X da assegnare ad ogni singola combinazione di input
+        in ingresso, sia nella tabella di verità, sia sulla mappa.
+        La tabella e la mappa saranno tra loro sincronizzate, in modo da lasciar libero l'utente di scegliere il
+        proprio metodo di inserimento.</p>
+    <br><img src="html/img/1.jpg" alt="L'immagine mostra la tabella e la mappa sincronizzate"><br><br>
+    <p> Una volta impostati i criteri nel menù di impostazione a destra della pagina, è possibile cliccare il pulsante
+        <strong>Elabora</strong>.</p>
+    <br><img src="html/img/2.jpg" alt="L'immagine evidenzia il menù di scelta"><br><br>
+    <p>Si otterrà cosi la soluzione divisa in gruppi colorati, il cui colore identifica la soluzione per ogni
+        corrispettivo gruppo disegnato sulla mappa.</p>
+    <br><img src="html/img/3.jpg" alt="L'immagine mostra la soluzione visualizzata in basso e sulla mappa">
+</body>
+
+</html>
