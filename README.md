@@ -1,2 +1,2 @@
-# Progetto-Watchnet
-Progetto universitario legato alla materia di Basi di Dati
+# Progetti universitari
+Progetti legati al corso di laurea in Informatica dell'Università di Catania
