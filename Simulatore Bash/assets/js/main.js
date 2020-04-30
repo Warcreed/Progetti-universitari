@@ -89,7 +89,7 @@
             }
         },
         credits: (parameters) => {
-            return "<div class='common-text'>bash: realizzato da Danilo Santitto, <a href='https://github.com/Warcreed/Progetti-universitari/tree/master/Simulatore%20Bash' target='_blanc'>Github</a></div>";
+            return "<div class='common-text'>bash: realizzato da Danilo Santitto, <a href='https://github.com/Warcreed/Progetti-universitari/tree/master/Simulatore%20Bash' target='_blank'>Github</a></div>";
         },
         echo: (parameters) => {
             if (parameters) {
