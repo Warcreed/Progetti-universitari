@@ -124,3 +124,10 @@ table {
 table td{
     padding: 2px 10px;
 }
+
+a {
+   color: rgb(235, 176, 48);
+}
+a:hover {
+    color: rgb(185, 138, 37);
+}

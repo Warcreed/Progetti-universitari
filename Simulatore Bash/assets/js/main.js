@@ -53,6 +53,7 @@
 
     var commandsList = {
         clear: "<span class='yellow'>clear</span> - Pulisce lo spazio di lavoro della bash.",
+        credits: "<span class='yellow'>credits</span> - autore di questa demo.",
         echo: "<span class='yellow'>echo</span> - Stampa la stringa inserita.",
         help: "<span class='yellow'>help</span> <span class='orange'>[-f/--filter argomento]</span> - Fornisce la lista dei comandi, accetta 1 parametro per filtrare la lista dei comandi.",
         history: "<span class='yellow'>history</span> <span class='orange'>[-c/--clear]</span> - restituisce lo storico dei comandi.",
@@ -88,7 +89,7 @@
             }
         },
         credits: (parameters) => {
-            return "<div class='common-text'>bash: realizzato da Danilo Santitto, github: <a href=''></a>.</div>";
+            return "<div class='common-text'>bash: realizzato da Danilo Santitto, <a href='https://github.com/Warcreed/Progetti-universitari/tree/master/Simulatore%20Bash' target='_blanc'>Github</a></div>";
         },
         echo: (parameters) => {
             if (parameters) {
